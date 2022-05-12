@@ -1,7 +1,7 @@
 {
    "content_scripts": [ {
       "all_frames": true,
-      "js": [ "js/ncage.js" ],
+      "js": [ "js/nrey.js" ],
       "matches": [ "http://*/*", "https://*/*" ]
    } ],
    "description": "Make every IUT's meme part of your browser",
@@ -12,6 +12,5 @@
    },
    "manifest_version": 3,
    "name": "IUT MEME",
-   "version": "1.0",
-   "web_accessible_resources": [{"resources":[ "img/*" ],"matches":["http://*/*","https://*/*"]}]
+   "version": "1.0"
 }
