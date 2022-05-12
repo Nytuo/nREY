@@ -1,17 +1,17 @@
 {
    "content_scripts": [ {
       "all_frames": true,
-      "js": [ "js/jquery-1.10.2.js", "js/ncage.js" ],
+      "js": [ "js/ncage.js" ],
       "matches": [ "http://*/*", "https://*/*" ]
    } ],
-   "description": "Make your browser look like REY",
+   "description": "Make every IUT's meme part of your browser",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
       "48": "icons/icon48.png"
    },
-   "manifest_version": 2,
-   "name": "NREY",
+   "manifest_version": 3,
+   "name": "IUT MEME",
    "version": "1.0",
-   "web_accessible_resources": [ "js/jquery.js", "img/*" ]
+   "web_accessible_resources": [{"resources":[ "img/*" ],"matches":["http://*/*","https://*/*"]}]
 }
